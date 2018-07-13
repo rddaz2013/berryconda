@@ -1,16 +1,18 @@
-{% set version = "0.3.1" %}
+{% set name = "h5netcdf" %}
+{% set version = "0.4.2" %}
 
 package:
-    name: h5netcdf
+    name: {{ name }}
     version: {{ version }}
 
 source:
-    fn: h5netcdf-{{ version }}.tar.gz
-    url: https://github.com/shoyer/h5netcdf/archive/v{{ version }}.tar.gz
-    sha256: 8fdc52d63ce1e6cc18c5badcd67804146fc23d3ff3f678590e8f6a1920a46754
+    fn: {{ name }}-{{ version }}.tar.gz
+    url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+    sha256: 0ebd1fee4a73887787e3ca295276f9caea358d6b292a3caf1d609fa48123c773
 
 build:
     number: 0
+    noarch: python
     script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:

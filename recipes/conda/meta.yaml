@@ -1,6 +1,6 @@
 {% set name = "conda" %}
-{% set version = "4.3.22" %}
-{% set checksum = "c194ff82edf564989ad68abd89bb1341c0c3f55ea8a3c55da3b22816a574c6bf" %}
+{% set version = "4.3.29" %}
+{% set checksum = "08b3ddb32615339c50684cb544529afe30732774a9332f7badd64ad836646519" %}
 
 package:
   name: conda
@@ -24,6 +24,10 @@ build:
 requirements:
   build:
     - python
+    - pycosat >=0.6.1
+    - pyopenssl >=16.2.0
+    - requests >=2.12.4
+    - ruamel_yaml >=0.11.14
   run:
     - python
     - conda-env >=2.6

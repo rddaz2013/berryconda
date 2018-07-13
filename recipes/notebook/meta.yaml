@@ -1,4 +1,4 @@
-{% set version = "5.0.0" %}
+{% set version = "5.4.0" %}
 
 package:
   name: notebook
@@ -7,7 +7,7 @@ package:
 source:
   fn: notebook-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/n/notebook/notebook-{{ version }}.tar.gz
-  sha256: 1cea3bbbd03c8e5842a1403347a8cc8134486b3ce081a2e5b1952a00ea66ed54
+  sha256: dd431fad9bdd25aa9ff8265da096ef770475e21bf1d327982611a7de5cd904ca
 
 
 build:
@@ -27,14 +27,15 @@ requirements:
     - ipykernel
     - ipython_genutils
     - jinja2
-    - jupyter_core
-    - jupyter_client
+    - jupyter_core >=4.4.0
+    - jupyter_client >=5.2.0
     - nbconvert
     - nbformat
     - python
-    - terminado
+    - terminado >=0.8.1
     - tornado >=4
-    - traitlets >=4.3
+    - traitlets >=4.2.1
+    - send2trash
 
 test:
   commands:

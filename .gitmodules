@@ -1,0 +1,72 @@
+[submodule "feedstocks/holoviews-feedstock"]
+	path = feedstocks/holoviews-feedstock
+	url = https://github.com/berryconda/holoviews-feedstock.git
+[submodule "feedstocks/param-feedstock"]
+	path = feedstocks/param-feedstock
+	url = https://github.com/berryconda/param-feedstock.git
+[submodule "feedstocks/lancet-feedstock"]
+	path = feedstocks/lancet-feedstock
+	url = https://github.com/berryconda/lancet-feedstock.git
+[submodule "feedstocks/jupyter-feedstock"]
+	path = feedstocks/jupyter-feedstock
+	url = https://github.com/berryconda/jupyter-feedstock.git
+[submodule "feedstocks/jupyter_console-feedstock"]
+	path = feedstocks/jupyter_console-feedstock
+	url = https://github.com/berryconda/jupyter_console-feedstock.git
+[submodule "feedstocks/dask-feedstock"]
+	path = feedstocks/dask-feedstock
+	url = https://github.com/berryconda/dask-feedstock.git
+[submodule "feedstocks/dask-core-feedstock"]
+	path = feedstocks/dask-core-feedstock
+	url = https://github.com/berryconda/dask-core-feedstock.git
+[submodule "feedstocks/distributed-feedstock"]
+	path = feedstocks/distributed-feedstock
+	url = https://github.com/berryconda/distributed-feedstock
+[submodule "feedstocks/cffi-feedstock"]
+	path = feedstocks/cffi-feedstock
+	url = https://github.com/berryconda/cffi-feedstock.git
+[submodule "feedstocks/h5netcdf-feedstock"]
+	path = feedstocks/h5netcdf-feedstock
+	url = https://github.com/berryconda/h5netcdf-feedstock.git
+[submodule "feedstocks/pytest-feedstock"]
+	path = feedstocks/pytest-feedstock
+	url = https://github.com/berryconda/pytest-feedstock.git
+[submodule "feedstocks/pyasn1-feedstock"]
+	path = feedstocks/pyasn1-feedstock
+	url = https://github.com/berryconda/pyasn1-feedstock.git
+[submodule "feedstocks/conda-feedstock"]
+	path = feedstocks/conda-feedstock
+	url = https://github.com/berryconda/conda-feedstock.git
+[submodule "feedstocks/lxml-feedstock"]
+	path = feedstocks/lxml-feedstock
+	url = https://github.com/berryconda/lxml-feedstock.git
+[submodule "feedstocks/psutil-feedstock"]
+	path = feedstocks/psutil-feedstock
+	url = https://github.com/berryconda/psutil-feedstock.git
+[submodule "feedstocks/setuptools-feedstock"]
+	path = feedstocks/setuptools-feedstock
+	url = https://github.com/berryconda/setuptools-feedstock.git
+[submodule "feedstocks/seaborn-feedstock"]
+	path = feedstocks/seaborn-feedstock
+	url = https://github.com/berryconda/seaborn-feedstock.git
+[submodule "feedstocks/statsmodels-feedstock"]
+	path = feedstocks/statsmodels-feedstock
+	url = https://github.com/berryconda/statsmodels-feedstock.git
+[submodule "feedstocks/patsy-feedstock"]
+	path = feedstocks/patsy-feedstock
+	url = https://github.com/berryconda/patsy-feedstock.git
+[submodule "feedstocks/jupyterlab-feedstock"]
+	path = feedstocks/jupyterlab-feedstock
+	url = https://github.com/berryconda/jupyterlab-feedstock.git
+[submodule "feedstocks/jupyterlab_launcher-feedstock"]
+	path = feedstocks/jupyterlab_launcher-feedstock
+	url = https://github.com/berryconda/jupyterlab_launcher-feedstock.git
+[submodule "feedstocks/attrs-feedstock"]
+	path = feedstocks/attrs-feedstock
+	url = https://github.com/berryconda/attrs-feedstock.git
+[submodule "feedstocks/pluggy-feedstock"]
+	path = feedstocks/pluggy-feedstock
+	url = https://github.com/berryconda/pluggy-feedstock.git
+[submodule "feedstocks/send2trash-feedstock"]
+	path = feedstocks/send2trash-feedstock
+	url = https://github.com/berryconda/send2trash-feedstock.git

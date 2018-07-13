@@ -1,16 +1,16 @@
-{% set version = "0.6" %}
+{% set version = "0.8.1" %}
 
 package:
   name: terminado
   version: {{ version }}
 
 source:
-  fn: terminado-{{ version }}.tar.gz
-  url: https://github.com/takluyver/terminado/archive/0.6.tar.gz
-  sha256: 6a1cfe8ede41962827ca8260bc64f387de85be62fd4e936bdde2ecf2a433931c
+  url: https://pypi.io/packages/source/t/terminado/terminado-{{ version }}.tar.gz
+  sha256: 55abf9ade563b8f9be1f34e4233c7b7bde726059947a593322e8a553cc4c067a
 
 build:
   number: 0
+  noarch: python
   script: python setup.py install
 
 requirements:
